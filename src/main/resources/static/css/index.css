@@ -1,0 +1,82 @@
+/*居中布局*/
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+/*导航背景*/
+.header {
+    margin: 0px;
+    width: 100%;
+    height:67px;
+    position: relative;
+    background: #ffffff;
+    z-index: 666;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+}
+.logo{
+    display: block;
+    float: left;
+    /*font-size: 18px;*/
+}
+.logo a {
+    font-size: 16px;
+    display: block;
+    width: 300px;
+    line-height: 67px;
+    align-content: center;
+    text-decoration: none;
+    background-color: #999999;
+    color: midnightblue;
+    /*margin-left: 20px;*/
+}
+.old {
+    float: left;
+    /*width: 100%;*/
+}
+.nav1{
+    display: block;
+    text-decoration: none;
+    margin-left: 20px;
+    /*width: 100%;*/
+}
+.nav1 li{
+    float: left;
+    position: relative;
+    line-height: 67px;
+    list-style: none;
+    margin-left: 40px;
+    /*padding: 10px;*/
+}
+
+.nav1 li a{
+    float: left;
+    position: relative;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+.showuser {
+    text-align: right;
+}
+.showName {
+    /*font-family: 微软雅黑;*/
+    font-size: 20px;
+    float: right;
+    /*margin-right: 20px;*/
+    text-decoration: none;
+    color: #101010;
+    line-height: 67px;
+}
+/*淡蓝色背景*/
+.wrapper {
+    /*background: url(../img/menu_resource/bkg.png);*/
+    width: 100%;
+    /*position: relative;*/
+    float: left;
+    top: 50px;
+    /*border: solid;*/
+    /*border-color: black;*/
+}

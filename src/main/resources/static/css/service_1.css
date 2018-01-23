@@ -1,0 +1,416 @@
+/*居中布局*/
+body {
+    margin: 0 auto;
+    overflow-x: hidden
+}
+
+/*导航背景*/
+.header {
+    padding: 0;
+    background: url(/static/img/menu_resource/dhbackground.png) repeat-x;
+    height: 100px;
+    width: 1800px
+}
+
+/*淡蓝色背景*/
+.wrapper {
+    background: url(/static/img/menu_resource/bkg.png);
+    width: 100%;
+    position: absolute;
+    top: 50px
+}
+
+/*温度图片*/
+.picbkg {
+    background: url(/static/img/menu_resource/bkg.png);
+    width: 1400px;
+    position: absolute;
+    top: 20px;
+    height: 500px
+}
+
+/*白色背景*/
+.background1 {
+    background: url(/static/img/menu_resource/bkg.png);
+    width: 1800px;
+    position: relative;
+    top: -90px;
+    left: 50px;
+    padding-bottom: 0
+}
+
+/*导航样式*/
+ul.nav1 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 72em;
+    background-color: #39C
+}
+
+ul.nav1 li {
+    float: left;
+    margin-left: 5px
+}
+
+ul.nav1 a {
+    display: block;
+    padding: 0.5em;
+    line-height: 2.1em;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px
+}
+
+ul.nav1 a:hover,
+ul.nav1 a:hover {
+    background: url(/static/img/menu_resource/bkg.png);
+    color: #000000
+}
+
+.old {
+    position: absolute;
+    left: 320px;
+    top: 4px
+}
+
+/*突出显示当前页面*/
+#dh1 .nav1 .dh1 a,
+#dh2 .nav1 .dh2 a,
+#dh3 .nav1 .dh3 a,
+#dh4 .nav1 .dh4 a,
+#dh5 .nav1 .dh5 a {
+    background: url("/static/img/menu_resource/bkg.png");
+    color: #000
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+body {
+    background: #ecfaff;
+}
+
+.play {
+    width: 900px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 35px auto 0;
+}
+
+ol {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    z-index: 2;
+}
+
+ol li {
+    float: left;
+    margin-right: 3px;
+    display: inline;
+    cursor: pointer;
+    background: #fcf2cf;
+    border: 1px solid #f47500;
+    padding: 2px 6px;
+    color: #d94b01;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.background1 ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.background1 ul li {
+    width: 900px;
+    height: 300px;
+    float: left;
+}
+
+.background1 ul img {
+    float: left;
+    width: 900px;
+    height: 300px;
+}
+
+/*区块一样式（左下）*/
+.background1 .place1 {
+    width: 1170px;
+    height: 300px;
+    background: #69c;
+    margin: 10px 30px
+}
+
+/*区块二样式*/
+.background1 .place2 {
+    width: 900px;
+    height: 300px;
+    background: #69C;
+    margin: 10px 30px
+}
+
+/*区块三样式*/
+.background1 .place3 {
+    width: 900px;
+    height: 200px;
+    background: #69C;
+    margin: 10px 30px
+}
+
+/*区块一内样式*/
+.background1 .place11_1 {
+    width: 370px;
+    height: 300px;
+    background: #fff;
+    float: left;
+    padding: 10px
+}
+
+.background1 .place11_2 {
+    width: 370px;
+    height: 300px;
+    background: #fff;
+    float: left;
+    padding: 10px
+}
+
+.background1 .place11_3 {
+    width: 350px;
+    height: 300px;
+    background: #fff;
+    float: right;
+    padding: 10px 20px 10px 20px
+}
+
+/*区块二内样式*/
+.background1 .place12_1 {
+    width: 700px;
+    height: 300px;
+    background: #fff;
+    float: left;
+}
+
+.background1 .place12_2 {
+    width: 200px;
+    height: 300px;
+    background: #fff;
+    float: right;
+}
+
+/*区块三内样式*/
+.background1 .place13_1 {
+    width: 700px;
+    height: 200px;
+    background: #0CF;
+    float: left;
+}
+
+.background1 .place13_2 {
+    width: 200px;
+    height: 200px;
+    background: #fFF;
+    float: right;
+}
+
+/*区块四*/
+.background1 .place14 {
+    width: 900px;
+    background: #999999
+}
+
+/*表格*/
+.table1 {
+    width: 100%;
+    height: 300px;
+    border-collapse: collapse
+}
+
+.table2 {
+    width: 100%;
+    height: 203px;
+    border-collapse: collapse
+}
+
+.table3 {
+    width: 100%;
+    height: 150px;
+    border-collapse: collapse
+}
+
+.back1 {
+    background: url(/static/img/menu_resource/dhbackground2.png) repeat-x;
+    height: 40px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: bold
+}
+
+.back2 {
+    height: 135px;
+    font-size: 15px;
+    color: #996600
+}
+
+.back3 {
+    color: #096;
+    font-size: 12px;
+    font-weight: bold
+}
+
+.back4 {
+    font-size: 14px;
+}
+
+.back5 {
+    font-size: 14px;
+    color: #360;
+    background: url(/static/img/menu_resource/background3.png);
+    background-size: 270 233
+}
+
+.back6 {
+    color: #FF3366;
+    font-weight: bold
+}
+
+/*表格内超链接*/
+.table1 .back2 a {
+    color: #360;
+    text-decoration: none
+}
+
+.table1 .back2 a:hover {
+    text-decoration: underline
+}
+
+.table1 .back3 a {
+    color: #096;
+    text-decoration: none
+}
+
+.table1 .back3 a:hover {
+    text-decoration: underline
+}
+
+.table1 .back4 a {
+    color: #363;
+    text-decoration: none
+}
+
+.table1 .back4 a:hover {
+    text-decoration: underline
+}
+
+.lower .table3 a {
+    color: #096;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px
+}
+
+.lower .table3 a:hover {
+    text-decoration: underline
+}
+
+.leftdiv {
+    position: relative;
+    width: 220px;
+    float: left;
+    background: #ffffff;
+    padding: 5px;
+    height: 550px
+}
+
+.rightdiv {
+    width: 1150px;
+    position: relative;
+    float: right;
+    background: #ffffff;
+    padding: 5px;
+    height: 550px
+}
+
+.topnav {
+    width: 213px;
+    padding: 40px 28px 25px 0;
+    font-family: "CenturyGothicRegular", "Century Gothic", Arial, Helvetica, sans-serif;
+}
+
+ul.topnav {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    line-height: 0.5em;
+    list-style: none;
+}
+
+ul.topnav li {
+}
+
+ul.topnav li a {
+    line-height: 10px;
+    font-size: 11px;
+    padding: 10px 5px;
+    color: #000;
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+ul.topnav li a:hover {
+    background-color: #675C7C;
+    color: white;
+}
+
+ul.topnav ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+ul.topnav ul li {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+ul.topnav ul li a {
+    padding-left: 20px;
+    font-size: 10px;
+    font-weight: normal;
+    outline: 0;
+}
+
+ul.topnav ul li a:hover {
+    background-color: #D3C99C;
+    color: #675C7C;
+}
+
+ul.topnav ul ul li a {
+    color: silver;
+    padding-left: 40px;
+}
+
+ul.topnav ul ul li a:hover {
+    background-color: #D3CEB8;
+    color: #675C7C;
+}
+
+ul.topnav span {
+    float: right;
+}
